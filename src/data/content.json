@@ -1,0 +1,190 @@
+{
+  "subjects": [
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "classLevels": ["9th", "10th", "11th", "12th"],
+      "chapters": [
+        {
+          "slug": "chapter-01",
+          "name": "Chapter 01",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [
+                {
+                  "id": "long-pdf",
+                  "title": "Add PDF resource here",
+                  "provider": "pdf",
+                  "viewUrl": "#",
+                  "downloadUrl": "#",
+                  "note": "Replace with your hosted PDF links."
+                }
+              ],
+              "externalLinks": [
+                {
+                  "id": "long-drive",
+                  "title": "Add Google Drive file here",
+                  "provider": "google-drive",
+                  "viewUrl": "https://drive.google.com/file/d/FILE_ID/view",
+                  "downloadUrl": "https://drive.google.com/uc?export=download&id=FILE_ID",
+                  "note": "Replace FILE_ID with your Google Drive file id."
+                }
+              ]
+            },
+            {
+              "id": "short-questions-mnemonics",
+              "title": "Short Questions / Mnemonics",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "paper-presentation-tips",
+              "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "chapter-02",
+          "name": "Chapter 02",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions-mnemonics",
+              "title": "Short Questions / Mnemonics",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "paper-presentation-tips",
+              "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "classLevels": ["9th", "10th", "11th", "12th"],
+      "chapters": [
+        {
+          "slug": "chapter-01",
+          "name": "Chapter 01",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions-mnemonics",
+              "title": "Short Questions / Mnemonics",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "paper-presentation-tips",
+              "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "classLevels": ["9th", "10th", "11th", "12th"],
+      "chapters": [
+        {
+          "slug": "chapter-01",
+          "name": "Chapter 01",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions-mnemonics",
+              "title": "Short Questions / Mnemonics",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "paper-presentation-tips",
+              "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "classLevels": ["9th", "10th", "11th", "12th"],
+      "chapters": [
+        {
+          "slug": "chapter-01",
+          "name": "Chapter 01",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions-mnemonics",
+              "title": "Short Questions / Mnemonics",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "paper-presentation-tips",
+              "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
