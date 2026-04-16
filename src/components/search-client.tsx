@@ -27,7 +27,7 @@ export function SearchClient({ documents }: SearchClientProps) {
 
   return (
     <div>
-      <label htmlFor="search" className="text-sm font-medium text-slate-800">
+      <label htmlFor="search" className="text-sm font-medium text-[#2c2c2c]">
         Search by chapter, question, mnemonic, or topic
       </label>
       <input
@@ -35,24 +35,24 @@ export function SearchClient({ documents }: SearchClientProps) {
         type="search"
         value={query}
         onChange={(event) => setQuery(event.target.value)}
-        className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 outline-none transition focus:border-slate-400"
+        className="mt-2 w-full rounded-lg border border-[#e8e0d5] bg-[#FAF7F2] px-4 py-2 text-sm text-[#2c2c2c] outline-none transition focus:border-[#8B9A6B]"
         placeholder="e.g. equations of motion"
       />
 
       <div className="mt-5 space-y-3">
         {filtered.length === 0 ? (
-          <p className="text-sm text-slate-600">No matching study items found.</p>
+          <p className="text-sm text-[#6b6b6b]">No matching study items found.</p>
         ) : (
           filtered.map((item) => (
             <Link
               href={item.href}
               key={`${item.href}-${item.snippet}`}
-              className="block rounded-xl border border-slate-200 bg-white p-4 transition hover:border-slate-300"
+              className="block rounded-xl border border-[#e8e0d5] bg-[#FAF7F2] p-4 transition hover:border-[#8B9A6B]"
             >
-              <p className="text-xs uppercase tracking-wide text-slate-500">{item.type}</p>
-              <h2 className="mt-1 text-sm font-semibold text-slate-900">{item.title}</h2>
-              <p className="mt-1 text-sm text-slate-700">{item.snippet}</p>
-              <p className="mt-2 text-xs text-slate-500">
+              <p className="text-xs uppercase tracking-wide text-[#8B9A6B] font-medium">{item.type}</p>
+              <h2 className="mt-1 text-sm font-medium text-[#2c2c2c]">{item.title}</h2>
+              <p className="mt-1 text-sm text-[#6b6b6b]">{item.snippet}</p>
+              <p className="mt-2 text-xs text-[#6b6b6b]">
                 {item.subject} / {item.chapter}
               </p>
             </Link>

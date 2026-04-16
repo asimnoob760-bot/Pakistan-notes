@@ -97,8 +97,54 @@
       ],
       "chapters": [
         {
-          "slug": "chapter-01",
+          "slug": "chemistry-chapter-01",
           "name": "Chapter 01",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [
+                {
+                  "id": "long-pdf",
+                  "title": "Add PDF resource here",
+                  "provider": "pdf",
+                  "viewUrl": "#",
+                  "downloadUrl": "#",
+                  "note": "Replace with your hosted PDF links."
+                }
+              ],
+              "externalLinks": [
+                {
+                  "id": "long-drive",
+                  "title": "Add Google Drive file here",
+                  "provider": "google-drive",
+                  "viewUrl": "https://drive.google.com/file/d/FILE_ID/view",
+                  "downloadUrl": "https://drive.google.com/uc?export=download&id=FILE_ID",
+                  "note": "Replace FILE_ID with your Google Drive file id."
+                }
+              ]
+            },
+            {
+              "id": "short-questions-mnemonics",
+              "title": "Short Questions / Mnemonics",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "paper-presentation-tips",
+              "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "chemistry-chapter-02",
+          "name": "Chapter 02",
           "description": "Add your notes here.",
           "sections": [
             {
@@ -118,6 +164,34 @@
             {
               "id": "paper-presentation-tips",
               "title": "Paper Presentation Tips",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "chemistry-chapter-03",
+          "name": "Chapter 03",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "chemistry-chapter-04",
+          "name": "Chapter 04",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
@@ -137,7 +211,7 @@
       ],
       "chapters": [
         {
-          "slug": "chapter-01",
+          "slug": "biology-chapter-01",
           "name": "Chapter 01",
           "description": "Add your notes here.",
           "sections": [
@@ -147,17 +221,45 @@
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
-            },
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-02",
+          "name": "Chapter 02",
+          "description": "Add your notes here.",
+          "sections": [
             {
-              "id": "short-questions-mnemonics",
-              "title": "Short Questions / Mnemonics",
+              "id": "long-questions",
+              "title": "Long Questions",
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
-            },
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-03",
+          "name": "Chapter 03",
+          "description": "Add your notes here.",
+          "sections": [
             {
-              "id": "paper-presentation-tips",
-              "title": "Paper Presentation Tips",
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-04",
+          "name": "Chapter 04",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
@@ -177,7 +279,7 @@
       ],
       "chapters": [
         {
-          "slug": "chapter-01",
+          "slug": "mathematics-chapter-01",
           "name": "Chapter 01",
           "description": "Add your notes here.",
           "sections": [
@@ -187,17 +289,73 @@
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
-            },
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-02",
+          "name": "Chapter 02",
+          "description": "Add your notes here.",
+          "sections": [
             {
-              "id": "short-questions-mnemonics",
-              "title": "Short Questions / Mnemonics",
+              "id": "long-questions",
+              "title": "Long Questions",
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
-            },
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-03",
+          "name": "Chapter 03",
+          "description": "Add your notes here.",
+          "sections": [
             {
-              "id": "paper-presentation-tips",
-              "title": "Paper Presentation Tips",
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-04",
+          "name": "Chapter 04",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-05",
+          "name": "Chapter 05",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Add your notes here.",
+              "files": [],
+              "externalLinks": []
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-06",
+          "name": "Chapter 06",
+          "description": "Add your notes here.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
               "placeholder": "Add your notes here.",
               "files": [],
               "externalLinks": []
@@ -207,7 +365,7 @@
       ]
     },
     {
-      "slug": "i hope this works",
+      "slug": "i-hope-this-works",
       "name": "Physics ",
       "classLevels": [
         "9th",
@@ -218,7 +376,7 @@
       "chapters": []
     },
     {
-      "slug": "i love pakore",
+      "slug": "i-love-pakore",
       "name": "pakore",
       "classLevels": [
         "9th",

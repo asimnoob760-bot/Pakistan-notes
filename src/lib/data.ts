@@ -1,4 +1,4 @@
-import contentJson from "@/data/content.json";
+import contentJson from "@/data/content-punjab-board.json";
 
 export type FileResource = {
   id: string;
@@ -11,8 +11,24 @@ export type FileResource = {
 
 export type SectionId =
   | "long-questions"
-  | "short-questions-mnemonics"
+  | "short-questions"
+  | "mcqs"
+  | "mnemonics"
+  | "numericals"
   | "paper-presentation-tips";
+
+export type MCQ = {
+  id: string;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+};
+
+export type LongQuestion = {
+  id: string;
+  question: string;
+  marks: number;
+};
 
 export type SectionContent = {
   id: SectionId;
@@ -27,6 +43,9 @@ export type ChapterContent = {
   name: string;
   description: string;
   sections: SectionContent[];
+  longQuestions?: LongQuestion[];
+  shortQuestions?: string[];
+  mcqs?: MCQ[];
 };
 
 export type SubjectContent = {
@@ -62,6 +81,21 @@ export type SearchDocument = {
   type: string;
 };
 
+export function getMCQs(subjectSlug: string, chapterSlug: string): MCQ[] {
+  const chapter = getChapter(subjectSlug, chapterSlug);
+  return chapter?.mcqs || [];
+}
+
+export function getLongQuestions(subjectSlug: string, chapterSlug: string): LongQuestion[] {
+  const chapter = getChapter(subjectSlug, chapterSlug);
+  return chapter?.longQuestions || [];
+}
+
+export function getShortQuestions(subjectSlug: string, chapterSlug: string): string[] {
+  const chapter = getChapter(subjectSlug, chapterSlug);
+  return chapter?.shortQuestions || [];
+}
+
 export function buildSearchDocuments(): SearchDocument[] {
   const docs: SearchDocument[] = [];
   for (const subject of subjectCatalog) {
@@ -84,6 +118,32 @@ export function buildSearchDocuments(): SearchDocument[] {
           chapter: chapter.name,
           type: "Section",
         });
+      }
+      // Add long questions to search
+      if (chapter.longQuestions) {
+        for (const lq of chapter.longQuestions) {
+          docs.push({
+            title: lq.question,
+            snippet: `${lq.marks} marks question - ${chapter.name}`,
+            href,
+            subject: subject.name,
+            chapter: chapter.name,
+            type: "Long Question",
+          });
+        }
+      }
+      // Add short questions to search
+      if (chapter.shortQuestions) {
+        for (const sq of chapter.shortQuestions) {
+          docs.push({
+            title: sq,
+            snippet: `Short question - ${chapter.name}`,
+            href,
+            subject: subject.name,
+            chapter: chapter.name,
+            type: "Short Question",
+          });
+        }
       }
     }
   }

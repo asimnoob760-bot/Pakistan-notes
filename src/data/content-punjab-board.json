@@ -1,0 +1,1854 @@
+{
+  "subjects": [
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "classLevels": ["11th"],
+      "chapters": [
+        {
+          "slug": "biology-chapter-01",
+          "name": "Chapter 1: Introduction to Biology",
+          "description": "Scope, branches (Botany, Zoology, Microbiology), importance of Biology in daily life, and relationship with other sciences.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed essay-type questions covering the chapter comprehensively.",
+              "files": [
+                {
+                  "id": "ch1-long-notes",
+                  "title": "Chapter 1 Long Questions - Punjab Board",
+                  "provider": "pdf",
+                  "viewUrl": "#",
+                  "downloadUrl": "#",
+                  "note": "Comprehensive long question notes"
+                }
+              ],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Quick revision short questions for last-minute preparation.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Multiple choice questions for objective paper preparation.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mnemonics",
+              "title": "Mnemonics",
+              "placeholder": "Memory aids for remembering key concepts.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "bio-ch1-lq1",
+              "question": "Describe the scope and importance of Biology in daily life.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch1-lq2",
+              "question": "Explain the different branches of Biology with examples.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch1-lq3",
+              "question": "Discuss the relationship of Biology with other sciences.",
+              "marks": 8
+            },
+            {
+              "id": "bio-ch1-lq4",
+              "question": "How does Biology contribute to solving environmental problems?",
+              "marks": 8
+            }
+          ],
+          "shortQuestions": [
+            "What is Biology?",
+            "Define Botany and Zoology.",
+            "What is the difference between pure and applied Biology?",
+            "Name five branches of Biology.",
+            "What is microbiology?",
+            "Define taxonomy.",
+            "What is genetics?",
+            "Define ecology.",
+            "What is the importance of biochemistry?",
+            "Name the careers related to Biology."
+          ],
+          "mcqs": [
+            {
+              "id": "bio-ch1-mcq1",
+              "question": "The study of living organisms is called:",
+              "options": ["Physics", "Chemistry", "Biology", "Geology"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "bio-ch1-mcq2",
+              "question": "The study of plants is called:",
+              "options": ["Zoology", "Botany", "Ecology", "Genetics"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch1-mcq3",
+              "question": "The study of microorganisms is called:",
+              "options": ["Microbiology", "Mycology", "Virology", "Bacteriology"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "bio-ch1-mcq4",
+              "question": "Which branch deals with heredity and variation?",
+              "options": ["Ecology", "Genetics", "Evolution", "Taxonomy"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch1-mcq5",
+              "question": "The father of modern taxonomy is:",
+              "options": ["Darwin", "Linnaeus", "Mendel", "Pasteur"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-02",
+          "name": "Chapter 2: Biological Molecules",
+          "description": "Carbohydrates, proteins, lipids, nucleic acids, water, and their biological importance.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on biological molecules.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions for quick revision.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mnemonics",
+              "title": "Mnemonics",
+              "placeholder": "Memory aids.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "bio-ch2-lq1",
+              "question": "Describe the structure and functions of carbohydrates in living organisms.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch2-lq2",
+              "question": "Explain the structure and classification of proteins with examples.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch2-lq3",
+              "question": "Discuss the importance of lipids in the human body.",
+              "marks": 8
+            },
+            {
+              "id": "bio-ch2-lq4",
+              "question": "Describe the structure and functions of nucleic acids (DNA and RNA).",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define carbohydrates.",
+            "What are monosaccharides? Give examples.",
+            "Differentiate between saturated and unsaturated fatty acids.",
+            "What are essential amino acids?",
+            "Define peptide bond.",
+            "What is the primary structure of protein?",
+            "Name the nitrogenous bases in DNA.",
+            "What is the difference between DNA and RNA?",
+            "Define enzyme.",
+            "What is the importance of water in biological systems?"
+          ],
+          "mcqs": [
+            {
+              "id": "bio-ch2-mcq1",
+              "question": "Which of the following is NOT a carbohydrate?",
+              "options": ["Glucose", "Fructose", "Starch", "Amino acid"],
+              "correctAnswer": 3
+            },
+            {
+              "id": "bio-ch2-mcq2",
+              "question": "The basic unit of proteins is:",
+              "options": ["Nucleotide", "Amino acid", "Fatty acid", "Monosaccharide"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch2-mcq3",
+              "question": "DNA contains which sugar?",
+              "options": ["Ribose", "Deoxyribose", "Glucose", "Fructose"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch2-mcq4",
+              "question": "Which nitrogenous base is NOT found in RNA?",
+              "options": ["Adenine", "Guanine", "Thymine", "Uracil"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "bio-ch2-mcq5",
+              "question": "Saturated fatty acids contain:",
+              "options": ["Double bonds", "Triple bonds", "Only single bonds", "No bonds"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-03",
+          "name": "Chapter 3: Enzymes",
+          "description": "Nature, properties, mechanism of enzyme action, and factors affecting enzyme activity.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on enzymes.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mnemonics",
+              "title": "Mnemonics",
+              "placeholder": "Memory aids.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "bio-ch3-lq1",
+              "question": "Describe the nature and properties of enzymes.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch3-lq2",
+              "question": "Explain the mechanism of enzyme action with the Lock and Key hypothesis.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch3-lq3",
+              "question": "Discuss the factors affecting enzyme activity (temperature, pH, substrate concentration).",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch3-lq4",
+              "question": "Differentiate between competitive and non-competitive inhibition.",
+              "marks": 8
+            }
+          ],
+          "shortQuestions": [
+            "What are enzymes?",
+            "Define active site.",
+            "What is the optimum pH for pepsin?",
+            "What is the optimum temperature for human enzymes?",
+            "Define coenzyme.",
+            "What is the Lock and Key theory?",
+            "What is induced fit model?",
+            "Define enzyme inhibition.",
+            "What is a substrate?",
+            "Name two factors that affect enzyme activity."
+          ],
+          "mcqs": [
+            {
+              "id": "bio-ch3-mcq1",
+              "question": "Enzymes are made of:",
+              "options": ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "bio-ch3-mcq2",
+              "question": "The part of enzyme where substrate binds is called:",
+              "options": ["Allosteric site", "Active site", "Binding site", "Catalytic site"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch3-mcq3",
+              "question": "Most human enzymes work best at:",
+              "options": ["25°C", "37°C", "50°C", "0°C"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch3-mcq4",
+              "question": "In competitive inhibition, the inhibitor:",
+              "options": ["Binds to allosteric site", "Binds to active site", "Denatures enzyme", "Increases enzyme activity"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch3-mcq5",
+              "question": "The substance on which enzyme acts is called:",
+              "options": ["Product", "Substrate", "Catalyst", "Inhibitor"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-04",
+          "name": "Chapter 4: The Cell",
+          "description": "Cell structure, cell theory, prokaryotic vs eukaryotic cells, cell organelles and their functions.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on cell biology.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mnemonics",
+              "title": "Mnemonics",
+              "placeholder": "Memory aids.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "bio-ch4-lq1",
+              "question": "State and explain the cell theory.",
+              "marks": 8
+            },
+            {
+              "id": "bio-ch4-lq2",
+              "question": "Differentiate between prokaryotic and eukaryotic cells with examples.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch4-lq3",
+              "question": "Describe the structure and functions of the nucleus.",
+              "marks": 8
+            },
+            {
+              "id": "bio-ch4-lq4",
+              "question": "Explain the structure and role of mitochondria in cellular respiration.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "State the cell theory.",
+            "Who discovered the cell?",
+            "What is the difference between prokaryotic and eukaryotic cells?",
+            "Name the cell organelles involved in protein synthesis.",
+            "What is the function of mitochondria?",
+            "Define chloroplast.",
+            "What is the function of ribosomes?",
+            "Differentiate between rough and smooth ER.",
+            "What is the Golgi apparatus?",
+            "What is the function of lysosomes?"
+          ],
+          "mcqs": [
+            {
+              "id": "bio-ch4-mcq1",
+              "question": "The cell was discovered by:",
+              "options": ["Schleiden", "Schwann", "Robert Hooke", "Virchow"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "bio-ch4-mcq2",
+              "question": "Prokaryotic cells lack:",
+              "options": ["Cell membrane", "Nucleus", "Ribosomes", "Cytoplasm"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch4-mcq3",
+              "question": "The powerhouse of the cell is:",
+              "options": ["Nucleus", "Chloroplast", "Mitochondria", "Ribosome"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "bio-ch4-mcq4",
+              "question": "Protein synthesis occurs in:",
+              "options": ["Nucleus", "Ribosomes", "Golgi apparatus", "Mitochondria"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch4-mcq5",
+              "question": "The fluid mosaic model describes:",
+              "options": ["Cell wall", "Cell membrane", "Nucleus", "Cytoplasm"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "biology-chapter-05",
+          "name": "Chapter 5: Variety of Life",
+          "description": "Kingdom classification, viruses, bacteria, and the five-kingdom classification system.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on classification.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mnemonics",
+              "title": "Mnemonics",
+              "placeholder": "Memory aids.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "bio-ch5-lq1",
+              "question": "Describe the five-kingdom classification system proposed by Whittaker.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch5-lq2",
+              "question": "Explain the structure and reproduction of viruses.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch5-lq3",
+              "question": "Discuss the characteristics and economic importance of bacteria.",
+              "marks": 10
+            },
+            {
+              "id": "bio-ch5-lq4",
+              "question": "Compare the characteristics of Monera and Protista.",
+              "marks": 8
+            }
+          ],
+          "shortQuestions": [
+            "Define taxonomy.",
+            "What is binomial nomenclature?",
+            "Name the five kingdoms.",
+            "What are viruses?",
+            "Are viruses living or non-living?",
+            "Define bacteria.",
+            "What are the shapes of bacteria?",
+            "Differentiate between Gram-positive and Gram-negative bacteria.",
+            "What is the importance of nitrogen-fixing bacteria?",
+            "Define prions and viroids."
+          ],
+          "mcqs": [
+            {
+              "id": "bio-ch5-mcq1",
+              "question": "The five-kingdom system was proposed by:",
+              "options": ["Linnaeus", "Whittaker", "Darwin", "Pasteur"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch5-mcq2",
+              "question": "Viruses are:",
+              "options": ["Cellular organisms", "Acellular organisms", "Bacteria", "Fungi"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch5-mcq3",
+              "question": "Bacteria belong to kingdom:",
+              "options": ["Protista", "Monera", "Fungi", "Plantae"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch5-mcq4",
+              "question": "Bacteria with spherical shape are called:",
+              "options": ["Bacillus", "Coccus", "Spirillum", "Vibrio"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "bio-ch5-mcq5",
+              "question": "Prions are composed of:",
+              "options": ["DNA only", "RNA only", "Protein only", "Lipids only"],
+              "correctAnswer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "classLevels": ["11th"],
+      "chapters": [
+        {
+          "slug": "chemistry-chapter-01",
+          "name": "Chapter 1: Stoichiometry",
+          "description": "Mole concept, empirical and molecular formulas, limiting reactants, and yield calculations.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Numerical and theoretical questions on stoichiometry.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice numerical problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "chem-ch1-lq1",
+              "question": "State and explain the laws of chemical combination with examples.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch1-lq2",
+              "question": "Explain the mole concept and Avogadro's number with calculations.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch1-lq3",
+              "question": "Differentiate between empirical and molecular formulas with examples.",
+              "marks": 8
+            },
+            {
+              "id": "chem-ch1-lq4",
+              "question": "Explain limiting reactant and percentage yield with numerical examples.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "State the law of conservation of mass.",
+            "What is Avogadro's number?",
+            "Define mole.",
+            "What is the difference between empirical and molecular formula?",
+            "Define limiting reactant.",
+            "What is percentage yield?",
+            "State the law of definite proportions.",
+            "Define molar mass.",
+            "What is the molar volume of gas at STP?",
+            "Define atomic mass unit (amu)."
+          ],
+          "mcqs": [
+            {
+              "id": "chem-ch1-mcq1",
+              "question": "Avogadro's number is:",
+              "options": ["6.022 × 10²³", "6.022 × 10²²", "6.022 × 10²⁴", "6.022 × 10²¹"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "chem-ch1-mcq2",
+              "question": "The molar volume of gas at STP is:",
+              "options": ["22.4 L", "2.24 L", "224 L", "0.224 L"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "chem-ch1-mcq3",
+              "question": "One mole of H₂O contains:",
+              "options": ["6.022 × 10²³ molecules", "12.044 × 10²³ molecules", "18 molecules", "10 molecules"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "chem-ch1-mcq4",
+              "question": "The empirical formula of C₆H₁₂O₆ is:",
+              "options": ["C₆H₁₂O₆", "CH₂O", "C₂H₄O₂", "C₃H₆O₃"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch1-mcq5",
+              "question": "The limiting reactant is the one which:",
+              "options": ["Is in excess", "Is completely consumed", "Produces maximum product", "Has highest mass"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "chemistry-chapter-02",
+          "name": "Chapter 2: Atomic Structure",
+          "description": "Rutherford's model, Bohr's model, quantum numbers, orbitals, and electronic configuration.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on atomic structure.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "chem-ch2-lq1",
+              "question": "Describe Rutherford's gold foil experiment and its conclusions.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch2-lq2",
+              "question": "Explain Bohr's atomic model and its postulates.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch2-lq3",
+              "question": "Describe the four quantum numbers and their significance.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch2-lq4",
+              "question": "Explain the shapes of s, p, and d orbitals.",
+              "marks": 8
+            }
+          ],
+          "shortQuestions": [
+            "Who discovered the nucleus?",
+            "State the postulates of Bohr's atomic model.",
+            "What are quantum numbers?",
+            "What is the shape of s-orbital?",
+            "How many electrons can occupy d-subshell?",
+            "Define Aufbau principle.",
+            "What is Hund's rule?",
+            "Define Pauli's exclusion principle.",
+            "What is the maximum number of electrons in M-shell?",
+            "Write the electronic configuration of oxygen."
+          ],
+          "mcqs": [
+            {
+              "id": "chem-ch2-mcq1",
+              "question": "The nucleus was discovered by:",
+              "options": ["Rutherford", "Bohr", "Thomson", "Chadwick"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "chem-ch2-mcq2",
+              "question": "The maximum number of electrons in n=3 shell is:",
+              "options": ["8", "18", "32", "2"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch2-mcq3",
+              "question": "The shape of p-orbital is:",
+              "options": ["Spherical", "Dumbbell", "Double dumbbell", "Complex"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch2-mcq4",
+              "question": "The azimuthal quantum number for d-orbital is:",
+              "options": ["0", "1", "2", "3"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "chem-ch2-mcq5",
+              "question": "According to Aufbau principle, orbitals are filled in order of:",
+              "options": ["Increasing energy", "Decreasing energy", "Same energy", "Random"],
+              "correctAnswer": 0
+            }
+          ]
+        },
+        {
+          "slug": "chemistry-chapter-03",
+          "name": "Chapter 3: States of Matter (Gases)",
+          "description": "Gas laws, kinetic molecular theory, ideal and real gases, and diffusion.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Questions on gas laws.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "chem-ch3-lq1",
+              "question": "State and explain Boyle's law and Charles's law with graphs.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch3-lq2",
+              "question": "Explain the kinetic molecular theory of gases.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch3-lq3",
+              "question": "Differentiate between ideal and real gases.",
+              "marks": 8
+            },
+            {
+              "id": "chem-ch3-lq4",
+              "question": "State and explain Graham's law of diffusion with applications.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "State Boyle's law.",
+            "State Charles's law.",
+            "What is the value of R (gas constant)?",
+            "Define absolute zero.",
+            "What is the ideal gas equation?",
+            "State Dalton's law of partial pressures.",
+            "Define diffusion.",
+            "What is effusion?",
+            "Define critical temperature.",
+            "What is standard temperature and pressure (STP)?"
+          ],
+          "mcqs": [
+            {
+              "id": "chem-ch3-mcq1",
+              "question": "Boyle's law states that at constant temperature:",
+              "options": ["V ∝ T", "P ∝ 1/V", "P ∝ T", "V ∝ n"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch3-mcq2",
+              "question": "Charles's law states that at constant pressure:",
+              "options": ["V ∝ T", "P ∝ V", "V ∝ 1/T", "P ∝ 1/V"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "chem-ch3-mcq3",
+              "question": "The value of R in SI units is:",
+              "options": ["0.0821 L atm K⁻¹ mol⁻¹", "8.314 J K⁻¹ mol⁻¹", "8.314 cal K⁻¹ mol⁻¹", "82.1 L atm K⁻¹ mol⁻¹"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch3-mcq4",
+              "question": "Standard temperature is:",
+              "options": ["0°C or 273 K", "25°C or 298 K", "100°C or 373 K", "-273°C or 0 K"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "chem-ch3-mcq5",
+              "question": "The rate of diffusion of gas is inversely proportional to:",
+              "options": ["Temperature", "Pressure", "Square root of molar mass", "Volume"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "slug": "chemistry-chapter-04",
+          "name": "Chapter 4: States of Matter (Liquids & Solids)",
+          "description": "Intermolecular forces, evaporation, vapor pressure, types of solids, and crystal structures.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Questions on liquids and solids.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "chem-ch4-lq1",
+              "question": "Explain the different types of intermolecular forces with examples.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch4-lq2",
+              "question": "Discuss evaporation and factors affecting the rate of evaporation.",
+              "marks": 10
+            },
+            {
+              "id": "chem-ch4-lq3",
+              "question": "Differentiate between crystalline and amorphous solids with examples.",
+              "marks": 8
+            },
+            {
+              "id": "chem-ch4-lq4",
+              "question": "Explain the classification of solids based on bonding (ionic, covalent, metallic, molecular).",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define intermolecular forces.",
+            "What is hydrogen bonding?",
+            "Define evaporation.",
+            "What is vapor pressure?",
+            "Define boiling point.",
+            "What is surface tension?",
+            "Define viscosity.",
+            "What is sublimation?",
+            "Define unit cell.",
+            "What is the difference between crystalline and amorphous solids?"
+          ],
+          "mcqs": [
+            {
+              "id": "chem-ch4-mcq1",
+              "question": "The strongest intermolecular force is:",
+              "options": ["London forces", "Dipole-dipole", "Hydrogen bond", "Ionic bond"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "chem-ch4-mcq2",
+              "question": "Evaporation is a:",
+              "options": ["Exothermic process", "Endothermic process", "Isothermal process", "Adiabatic process"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch4-mcq3",
+              "question": "Diamond is an example of:",
+              "options": ["Ionic solid", "Molecular solid", "Covalent network solid", "Metallic solid"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "chem-ch4-mcq4",
+              "question": "Glass is an example of:",
+              "options": ["Crystalline solid", "Amorphous solid", "Ionic solid", "Metallic solid"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "chem-ch4-mcq5",
+              "question": "The temperature at which vapor pressure equals atmospheric pressure is called:",
+              "options": ["Melting point", "Freezing point", "Boiling point", "Sublimation point"],
+              "correctAnswer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "classLevels": ["11th"],
+      "chapters": [
+        {
+          "slug": "physics-chapter-01",
+          "name": "Chapter 1: Measurements",
+          "description": "Physical quantities, SI units, errors in measurements, significant figures, and dimensional analysis.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on measurements.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "phy-ch1-lq1",
+              "question": "Define physical quantities. Differentiate between base and derived quantities with examples.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch1-lq2",
+              "question": "Explain the SI system of units. Describe the seven base units with their symbols.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch1-lq3",
+              "question": "Discuss the types of errors in measurements and methods to minimize them.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch1-lq4",
+              "question": "Explain the rules for determining significant figures with examples.",
+              "marks": 8
+            }
+          ],
+          "shortQuestions": [
+            "Define physical quantity.",
+            "What is the difference between base and derived quantities?",
+            "Define dimension.",
+            "What is the SI unit of force?",
+            "Define precision and accuracy.",
+            "What is systematic error?",
+            "What is random error?",
+            "Define least count.",
+            "What are significant figures?",
+            "State the dimensions of velocity and acceleration."
+          ],
+          "mcqs": [
+            {
+              "id": "phy-ch1-mcq1",
+              "question": "The SI unit of length is:",
+              "options": ["Centimeter", "Meter", "Kilometer", "Millimeter"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch1-mcq2",
+              "question": "The SI unit of time is:",
+              "options": ["Minute", "Hour", "Second", "Day"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "phy-ch1-mcq3",
+              "question": "The number of significant figures in 0.00450 is:",
+              "options": ["2", "3", "4", "5"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch1-mcq4",
+              "question": "The dimensions of force are:",
+              "options": ["[MLT⁻²]", "[ML²T⁻²]", "[MLT⁻¹]", "[M²LT⁻²]"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "phy-ch1-mcq5",
+              "question": "1 nanometer is equal to:",
+              "options": ["10⁻⁶ m", "10⁻⁹ m", "10⁻³ m", "10⁻¹² m"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "physics-chapter-02",
+          "name": "Chapter 2: Vectors and Equilibrium",
+          "description": "Scalars and vectors, vector addition, rectangular components, torque, and conditions of equilibrium.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Questions on vectors and equilibrium.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "phy-ch2-lq1",
+              "question": "Differentiate between scalars and vectors with examples. Explain vector addition using head-to-tail rule.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch2-lq2",
+              "question": "Explain the resolution of vectors into rectangular components with diagram.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch2-lq3",
+              "question": "Define torque. Explain the factors affecting torque with examples.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch2-lq4",
+              "question": "State and explain the two conditions of equilibrium.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Differentiate between scalar and vector quantities.",
+            "What is the resultant vector?",
+            "Define unit vector.",
+            "What are rectangular components?",
+            "Define position vector.",
+            "What is the scalar product?",
+            "What is the vector product?",
+            "Define torque.",
+            "What is the moment arm?",
+            "State the conditions of equilibrium."
+          ],
+          "mcqs": [
+            {
+              "id": "phy-ch2-mcq1",
+              "question": "Which of the following is a vector quantity?",
+              "options": ["Mass", "Speed", "Velocity", "Temperature"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "phy-ch2-mcq2",
+              "question": "The magnitude of unit vector is:",
+              "options": ["0", "1", "Undefined", "Variable"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch2-mcq3",
+              "question": "The cross product of two parallel vectors is:",
+              "options": ["Maximum", "Zero", "Unity", "Negative"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch2-mcq4",
+              "question": "Torque is defined as:",
+              "options": ["r × F", "r · F", "r + F", "r - F"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "phy-ch2-mcq5",
+              "question": "For a body to be in equilibrium, the net force must be:",
+              "options": ["Maximum", "Minimum", "Zero", "Variable"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "slug": "physics-chapter-03",
+          "name": "Chapter 3: Motion and Force",
+          "description": "Displacement, velocity, acceleration, Newton's laws of motion, momentum, and impulse.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Questions on motion and force.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "phy-ch3-lq1",
+              "question": "Derive the three equations of motion for uniformly accelerated motion.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch3-lq2",
+              "question": "State and explain Newton's three laws of motion with examples.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch3-lq3",
+              "question": "Define momentum. Prove that F = ma using Newton's second law.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch3-lq4",
+              "question": "Explain the law of conservation of linear momentum with applications.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Differentiate between distance and displacement.",
+            "What is the difference between speed and velocity?",
+            "Define acceleration.",
+            "State Newton's first law of motion.",
+            "State Newton's second law.",
+            "State Newton's third law.",
+            "Define momentum.",
+            "What is impulse?",
+            "Define inertia.",
+            "What is the SI unit of force?"
+          ],
+          "mcqs": [
+            {
+              "id": "phy-ch3-mcq1",
+              "question": "The slope of velocity-time graph gives:",
+              "options": ["Displacement", "Distance", "Acceleration", "Velocity"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "phy-ch3-mcq2",
+              "question": "Newton's first law is also called:",
+              "options": ["Law of acceleration", "Law of inertia", "Law of action-reaction", "Law of gravitation"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch3-mcq3",
+              "question": "The SI unit of momentum is:",
+              "options": ["kg m s", "kg m s⁻¹", "kg m s⁻²", "kg m² s⁻¹"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch3-mcq4",
+              "question": "Impulse is equal to:",
+              "options": ["Force × time", "Force × distance", "Mass × velocity", "Mass × acceleration"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "phy-ch3-mcq5",
+              "question": "Action and reaction forces act on:",
+              "options": ["Same body", "Different bodies", "Same point", "None of these"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "physics-chapter-04",
+          "name": "Chapter 4: Work and Energy",
+          "description": "Work done by constant and variable forces, power, kinetic energy, potential energy, and conservation of energy.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Questions on work and energy.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "phy-ch4-lq1",
+              "question": "Define work done by a constant force. Explain when work is positive, negative, and zero.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch4-lq2",
+              "question": "Derive the expression for kinetic energy: KE = ½mv².",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch4-lq3",
+              "question": "Derive the expression for gravitational potential energy: PE = mgh.",
+              "marks": 10
+            },
+            {
+              "id": "phy-ch4-lq4",
+              "question": "State and prove the work-energy theorem.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define work.",
+            "What is the SI unit of work?",
+            "Define power.",
+            "What is the SI unit of power?",
+            "Define kinetic energy.",
+            "Define potential energy.",
+            "State the law of conservation of energy.",
+            "What is mechanical energy?",
+            "Define efficiency.",
+            "What is the relationship between kilowatt and watt?"
+          ],
+          "mcqs": [
+            {
+              "id": "phy-ch4-mcq1",
+              "question": "Work is a:",
+              "options": ["Scalar quantity", "Vector quantity", "Dimensionless quantity", "None of these"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "phy-ch4-mcq2",
+              "question": "The SI unit of work is:",
+              "options": ["Watt", "Joule", "Newton", "Kilowatt"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch4-mcq3",
+              "question": "Power is defined as:",
+              "options": ["Work × time", "Work / time", "Work × distance", "Force × velocity"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch4-mcq4",
+              "question": "Kinetic energy of a body of mass m moving with velocity v is:",
+              "options": ["½mv", "½mv²", "mv", "mv²"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "phy-ch4-mcq5",
+              "question": "1 kilowatt-hour is equal to:",
+              "options": ["3.6 × 10⁶ J", "3.6 × 10³ J", "3.6 × 10⁹ J", "3.6 × 10⁵ J"],
+              "correctAnswer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "classLevels": ["11th"],
+      "chapters": [
+        {
+          "slug": "mathematics-chapter-01",
+          "name": "Chapter 1: Number Systems",
+          "description": "Real and complex numbers, properties of real numbers, rational and irrational numbers, complex numbers operations.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on number systems.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "math-ch1-lq1",
+              "question": "Prove that √2 is an irrational number.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch1-lq2",
+              "question": "Explain the properties of real numbers with examples.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch1-lq3",
+              "question": "Define complex numbers. Explain the operations on complex numbers (addition, subtraction, multiplication, division).",
+              "marks": 10
+            },
+            {
+              "id": "math-ch1-lq4",
+              "question": "If z₁ and z₂ are complex numbers, prove that |z₁ · z₂| = |z₁| · |z₂|.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define rational numbers.",
+            "Define irrational numbers.",
+            "What is the value of i²?",
+            "Define complex number.",
+            "What is the conjugate of a + bi?",
+            "Define modulus of a complex number.",
+            "What is the real part of 3 + 4i?",
+            "Simplify: (2 + 3i) + (4 - 5i).",
+            "Find the multiplicative inverse of 3 + 4i.",
+            "What is the polar form of a complex number?"
+          ],
+          "mcqs": [
+            {
+              "id": "math-ch1-mcq1",
+              "question": "The value of i⁴ is:",
+              "options": ["1", "-1", "i", "-i"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch1-mcq2",
+              "question": "The conjugate of 3 + 4i is:",
+              "options": ["3 + 4i", "3 - 4i", "-3 + 4i", "-3 - 4i"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch1-mcq3",
+              "question": "The modulus of 3 + 4i is:",
+              "options": ["5", "7", "25", "1"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch1-mcq4",
+              "question": "Which of the following is a rational number?",
+              "options": ["√2", "√3", "0.333...", "π"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "math-ch1-mcq5",
+              "question": "If z = a + bi, then z + z̄ equals:",
+              "options": ["2a", "2b", "2bi", "0"],
+              "correctAnswer": 0
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-02",
+          "name": "Chapter 2: Sets, Functions and Groups",
+          "description": "Sets, operations on sets, Venn diagrams, relations, functions, binary operations, and groups.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Questions on sets and functions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "math-ch2-lq1",
+              "question": "Define set and its types. Explain the operations on sets: union, intersection, complement, and difference.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch2-lq2",
+              "question": "State and prove De Morgan's laws for sets.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch2-lq3",
+              "question": "Define function. Explain the types of functions with examples (one-one, onto, bijective).",
+              "marks": 10
+            },
+            {
+              "id": "math-ch2-lq4",
+              "question": "Define group. Prove that the set of integers under addition forms a group.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define a set.",
+            "What is the empty set?",
+            "Define union of sets.",
+            "Define intersection of sets.",
+            "What is the complement of a set?",
+            "Define relation.",
+            "Define function.",
+            "What is an injective function?",
+            "Define binary operation.",
+            "What is an identity element?"
+          ],
+          "mcqs": [
+            {
+              "id": "math-ch2-mcq1",
+              "question": "The set with no elements is called:",
+              "options": ["Universal set", "Empty set", "Subset", "Power set"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch2-mcq2",
+              "question": "If A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B is:",
+              "options": ["{1, 2, 3, 4}", "{2, 3}", "{1, 4}", "{}"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch2-mcq3",
+              "question": "A function that is both one-one and onto is called:",
+              "options": ["Injective", "Surjective", "Bijective", "Inverse"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "math-ch2-mcq4",
+              "question": "The identity element for addition is:",
+              "options": ["0", "1", "-1", "Infinity"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch2-mcq5",
+              "question": "De Morgan's law states that (A ∪ B)' equals:",
+              "options": ["A' ∪ B'", "A' ∩ B'", "A ∩ B", "A ∪ B"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-03",
+          "name": "Chapter 3: Matrices and Determinants",
+          "description": "Types of matrices, matrix operations, determinants, inverse of a matrix, and solving systems of equations using matrices.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on matrices and determinants.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "math-ch3-lq1",
+              "question": "Define matrix. Explain different types of matrices with examples.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch3-lq2",
+              "question": "If A and B are matrices, prove that (AB)' = B'A' where ' denotes transpose.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch3-lq3",
+              "question": "Define determinant. Find the determinant of a 3×3 matrix using expansion by cofactors.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch3-lq4",
+              "question": "Define the inverse of a matrix. Explain the method to find the inverse using adjoint.",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define a matrix.",
+            "What is a square matrix?",
+            "Define diagonal matrix.",
+            "What is the transpose of a matrix?",
+            "Define symmetric matrix.",
+            "What is the determinant of a 2×2 matrix?",
+            "Define singular matrix.",
+            "What is the adjoint of a matrix?",
+            "Define inverse of a matrix.",
+            "What is the identity matrix?"
+          ],
+          "mcqs": [
+            {
+              "id": "math-ch3-mcq1",
+              "question": "A matrix with equal number of rows and columns is called:",
+              "options": ["Row matrix", "Column matrix", "Square matrix", "Diagonal matrix"],
+              "correctAnswer": 2
+            },
+            {
+              "id": "math-ch3-mcq2",
+              "question": "The determinant of [[1, 2], [3, 4]] is:",
+              "options": ["-2", "2", "10", "-10"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch3-mcq3",
+              "question": "If A is a matrix, then (A')' equals:",
+              "options": ["A", "A'", "2A", "A²"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch3-mcq4",
+              "question": "A square matrix with all non-diagonal elements zero is called:",
+              "options": ["Identity matrix", "Diagonal matrix", "Symmetric matrix", "Skew-symmetric matrix"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch3-mcq5",
+              "question": "The inverse of a matrix A exists if:",
+              "options": ["det(A) = 0", "det(A) ≠ 0", "A is square", "A is diagonal"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-04",
+          "name": "Chapter 4: Quadratic Equations",
+          "description": "Solution of quadratic equations, nature of roots, relationships between roots and coefficients, and formation of quadratic equations.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on quadratic equations.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "math-ch4-lq1",
+              "question": "Solve the quadratic equation ax² + bx + c = 0 by completing the square method.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch4-lq2",
+              "question": "Derive the quadratic formula and explain the nature of roots based on discriminant.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch4-lq3",
+              "question": "If α and β are roots of ax² + bx + c = 0, find the sum and product of roots without solving.",
+              "marks": 10
+            },
+            {
+              "id": "math-ch4-lq4",
+              "question": "Form the quadratic equation whose roots are α and β.",
+              "marks": 8
+            }
+          ],
+          "shortQuestions": [
+            "Define quadratic equation.",
+            "What is the discriminant of a quadratic equation?",
+            "State the quadratic formula.",
+            "If discriminant is positive, what are the nature of roots?",
+            "If discriminant is zero, what are the nature of roots?",
+            "If discriminant is negative, what are the nature of roots?",
+            "What is the sum of roots of ax² + bx + c = 0?",
+            "What is the product of roots of ax² + bx + c = 0?",
+            "Solve: x² - 5x + 6 = 0.",
+            "Find the discriminant of 2x² - 3x + 1 = 0."
+          ],
+          "mcqs": [
+            {
+              "id": "math-ch4-mcq1",
+              "question": "The quadratic formula is:",
+              "options": ["x = (-b ± √(b² - 4ac)) / 2a", "x = (-b ± √(b² + 4ac)) / 2a", "x = (b ± √(b² - 4ac)) / 2a", "x = (-b ± √(b² - 4ac)) / a"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch4-mcq2",
+              "question": "For x² - 4x + 4 = 0, the discriminant is:",
+              "options": ["0", "4", "8", "16"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch4-mcq3",
+              "question": "If discriminant > 0, roots are:",
+              "options": ["Real and equal", "Real and distinct", "Imaginary", "Zero"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch4-mcq4",
+              "question": "Sum of roots of 2x² - 5x + 3 = 0 is:",
+              "options": ["5/2", "-5/2", "3/2", "-3/2"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch4-mcq5",
+              "question": "Product of roots of x² + 4x - 5 = 0 is:",
+              "options": ["4", "-4", "5", "-5"],
+              "correctAnswer": 3
+            }
+          ]
+        },
+        {
+          "slug": "mathematics-chapter-05",
+          "name": "Chapter 5: Partial Fractions",
+          "description": "Resolution of rational fractions into partial fractions: linear factors, repeated factors, and irreducible quadratic factors.",
+          "sections": [
+            {
+              "id": "long-questions",
+              "title": "Long Questions",
+              "placeholder": "Detailed questions on partial fractions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "short-questions",
+              "title": "Short Questions",
+              "placeholder": "Short questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "mcqs",
+              "title": "MCQs",
+              "placeholder": "Objective questions.",
+              "files": [],
+              "externalLinks": []
+            },
+            {
+              "id": "numericals",
+              "title": "Numerical Problems",
+              "placeholder": "Practice problems.",
+              "files": [],
+              "externalLinks": []
+            }
+          ],
+          "longQuestions": [
+            {
+              "id": "math-ch5-lq1",
+              "question": "Resolve into partial fractions: (3x + 5) / ((x - 1)(x + 2)).",
+              "marks": 10
+            },
+            {
+              "id": "math-ch5-lq2",
+              "question": "Resolve into partial fractions: (x² + 1) / (x(x - 1)²).",
+              "marks": 10
+            },
+            {
+              "id": "math-ch5-lq3",
+              "question": "Resolve into partial fractions: (2x + 3) / ((x² + 1)(x - 2)).",
+              "marks": 10
+            }
+          ],
+          "shortQuestions": [
+            "Define partial fractions.",
+            "What are the types of partial fractions?",
+            "What is the form of partial fractions for (px + q) / (x - a)(x - b)?",
+            "What is the form of partial fractions for (px + q) / (x - a)²?",
+            "What is the form of partial fractions for (px + q) / (x² + a²)?",
+            "What is a proper fraction?",
+            "What is an improper fraction?",
+            "Resolve: 1 / (x² - 1) into partial fractions.",
+            "Resolve: (x + 1) / (x(x - 2)) into partial fractions.",
+            "What is the cover-up rule?"
+          ],
+          "mcqs": [
+            {
+              "id": "math-ch5-mcq1",
+              "question": "The partial fraction form of 1/(x(x-1)) is:",
+              "options": ["A/x + B/(x-1)", "A/x + Bx/(x-1)", "A/x² + B/(x-1)", "A/x + B/(x-1)²"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch5-mcq2",
+              "question": "The partial fraction form of 1/(x-1)² is:",
+              "options": ["A/(x-1)", "A/(x-1) + B/(x-1)²", "A/(x-1)²", "A/(x-1) + B"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch5-mcq3",
+              "question": "1/(x²+1) in partial fractions has the form:",
+              "options": ["A/(x+1) + B/(x-1)", "(Ax+B)/(x²+1)", "A/(x²+1)", "A/x + Bx/(x²+1)"],
+              "correctAnswer": 1
+            },
+            {
+              "id": "math-ch5-mcq4",
+              "question": "If degree of numerator < degree of denominator, the fraction is:",
+              "options": ["Proper", "Improper", "Mixed", "Complex"],
+              "correctAnswer": 0
+            },
+            {
+              "id": "math-ch5-mcq5",
+              "question": "The value of A in 1/(x(x+1)) = A/x + B/(x+1) when x=0 is:",
+              "options": ["0", "1", "-1", "2"],
+              "correctAnswer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
