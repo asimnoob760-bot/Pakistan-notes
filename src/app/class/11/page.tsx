@@ -8,29 +8,29 @@ const subjects = [
   {
     slug: "biology",
     name: "Biology",
-    description: "Living organisms, cell structure, genetics, and more",
-    chapters: 12,
+    description: "Cell biology, biological molecules, enzymes, bioenergetics",
+    chapters: 5,
     color: "#8B9A6B"
   },
   {
     slug: "chemistry",
     name: "Chemistry",
-    description: "Atomic structure, chemical bonding, organic chemistry",
-    chapters: 11,
+    description: "Stoichiometry, atomic structure, chemical bonding, states of matter",
+    chapters: 4,
     color: "#B8A5A0"
   },
   {
     slug: "physics",
     name: "Physics",
-    description: "Mechanics, thermodynamics, waves, and modern physics",
-    chapters: 10,
+    description: "Measurements, vectors, forces, circular motion, work & energy",
+    chapters: 5,
     color: "#9CAF88"
   },
   {
     slug: "mathematics",
     name: "Mathematics",
-    description: "Algebra, calculus, trigonometry, and geometry",
-    chapters: 14,
+    description: "Number systems, sets, matrices, quadratic equations, partial fractions",
+    chapters: 5,
     color: "#A89F91"
   }
 ];
@@ -72,7 +72,7 @@ export default function Class11Page() {
         {subjects.map((subject, index) => (
           <Link
             key={subject.slug}
-            href={`/class/11/${subject.slug}`}
+            href={`/subject/${subject.slug}`}
             className={`group bg-[#FFFBF7] border border-[#e8e0d5] rounded-xl p-6 transition-all duration-300 hover:border-[${subject.color}] hover:shadow-lg hover:-translate-y-1 ${
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}

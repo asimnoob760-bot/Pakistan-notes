@@ -4,13 +4,107 @@
   --background: #FAF7F2;
   --foreground: #2c2c2c;
   --surface: #FFFBF7;
+  --surface-hover: #F5F0E8;
   --border: #e8e0d5;
+  --border-hover: #d0c8bd;
   --muted: #6b6b6b;
   --accent: #8B9A6B;
   --accent-hover: #7a8a5a;
   --secondary-accent: #B8A5A0;
   --primary-gradient: linear-gradient(135deg, #2c2c2c 0%, #3d3d3d 100%);
   --secondary-gradient: linear-gradient(135deg, #FAF7F2 0%, #F5F0E8 100%);
+}
+
+/* Dark Mode - OLED Black with high contrast */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #f0f0f0;
+  --surface: #141414;
+  --surface-hover: #1a1a1a;
+  --border: #2a2a2a;
+  --border-hover: #3a3a3a;
+  --muted: #a0a0a0;
+  --accent: #9ab87a;
+  --accent-hover: #a8c48a;
+  --secondary-accent: #c4b0a8;
+  --primary-gradient: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  --secondary-gradient: linear-gradient(135deg, #0a0a0a 0%, #141414 100%);
+}
+
+/* Dark mode color utilities */
+.dark .bg-\[\#FFFBF7\] {
+  background-color: #141414;
+}
+
+.dark .bg-\[\#FAF7F2\] {
+  background-color: #0a0a0a;
+}
+
+.dark .bg-\[\#8B9A6B\]\/10 {
+  background-color: rgba(154, 184, 122, 0.15);
+}
+
+.dark .bg-\[\#B8A5A0\]\/10 {
+  background-color: rgba(196, 176, 168, 0.15);
+}
+
+.dark .bg-\[\#8B9A6B\]\/20 {
+  background-color: rgba(154, 184, 122, 0.25);
+}
+
+.dark .text-\[\#2c2c2c\] {
+  color: #f0f0f0;
+}
+
+.dark .text-\[\#6b6b6b\] {
+  color: #a0a0a0;
+}
+
+.dark .text-\[\#8B9A6B\] {
+  color: #9ab87a;
+}
+
+.dark .text-\[\#B8A5A0\] {
+  color: #c4b0a8;
+}
+
+.dark .border-\[\#e8e0d5\] {
+  border-color: #2a2a2a;
+}
+
+.dark .border-\[\#8B9A6B\] {
+  border-color: #9ab87a;
+}
+
+.dark .hover\:bg-\[\#e8e0d5\]\:hover {
+  background-color: #2a2a2a;
+}
+
+.dark .hover\:text-\[\#8B9A6B\]:hover {
+  color: #a8c48a;
+}
+
+.dark .hover\:border-\[\#8B9A6B\]:hover {
+  border-color: #9ab87a;
+}
+
+/* Header specific dark mode styles */
+.dark .bg-\[\#FFFBF7\]\/95 {
+  background-color: rgba(20, 20, 20, 0.95);
+}
+
+.dark .backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+}
+
+/* Navigation link hover backgrounds */
+.dark .hover\:bg-\[\#e8e0d5\]\/30:hover {
+  background-color: rgba(42, 42, 42, 0.3);
+}
+
+/* Border left for theme toggle separator */
+.dark .border-l-\[\#e8e0d5\] {
+  border-left-color: #2a2a2a;
 }
 
 @theme inline {

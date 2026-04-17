@@ -3,7 +3,9 @@
     {
       "slug": "biology",
       "name": "Biology",
-      "classLevels": ["11th"],
+      "classLevels": [
+        "11th"
+      ],
       "chapters": [
         {
           "slug": "biology-chapter-01",
@@ -52,12 +54,18 @@
             {
               "id": "bio-ch1-lq1",
               "question": "Describe the scope and importance of Biology in daily life.",
-              "marks": 10
+              "marks": 10,
+              "imageUrl": "https://i.ibb.co/sdJ97GL2/biology-biology-chapter-01-bio-ch1-lq1-1776453798491.png",
+              "imageUrls": [
+                "https://i.ibb.co/9my94LJM/biology-biology-chapter-01-bio-ch1-lq1-1776452332165.png",
+                "https://i.ibb.co/sdJ97GL2/biology-biology-chapter-01-bio-ch1-lq1-1776453798491.png"
+              ]
             },
             {
               "id": "bio-ch1-lq2",
               "question": "Explain the different branches of Biology with examples.",
-              "marks": 10
+              "marks": 10,
+              "imageUrl": "/uploads/questions/biology-biology-chapter-01-bio-ch1-lq2-1776450324562.png"
             },
             {
               "id": "bio-ch1-lq3",
@@ -86,31 +94,56 @@
             {
               "id": "bio-ch1-mcq1",
               "question": "The study of living organisms is called:",
-              "options": ["Physics", "Chemistry", "Biology", "Geology"],
+              "options": [
+                "Physics",
+                "Chemistry",
+                "Biology",
+                "Geology"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "bio-ch1-mcq2",
               "question": "The study of plants is called:",
-              "options": ["Zoology", "Botany", "Ecology", "Genetics"],
+              "options": [
+                "Zoology",
+                "Botany",
+                "Ecology",
+                "Genetics"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch1-mcq3",
               "question": "The study of microorganisms is called:",
-              "options": ["Microbiology", "Mycology", "Virology", "Bacteriology"],
+              "options": [
+                "Microbiology",
+                "Mycology",
+                "Virology",
+                "Bacteriology"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "bio-ch1-mcq4",
               "question": "Which branch deals with heredity and variation?",
-              "options": ["Ecology", "Genetics", "Evolution", "Taxonomy"],
+              "options": [
+                "Ecology",
+                "Genetics",
+                "Evolution",
+                "Taxonomy"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch1-mcq5",
               "question": "The father of modern taxonomy is:",
-              "options": ["Darwin", "Linnaeus", "Mendel", "Pasteur"],
+              "options": [
+                "Darwin",
+                "Linnaeus",
+                "Mendel",
+                "Pasteur"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -181,37 +214,63 @@
             "Name the nitrogenous bases in DNA.",
             "What is the difference between DNA and RNA?",
             "Define enzyme.",
-            "What is the importance of water in biological systems?"
+            "What is the importance of water in biological systems?",
+            "does this site work?"
           ],
           "mcqs": [
             {
               "id": "bio-ch2-mcq1",
               "question": "Which of the following is NOT a carbohydrate?",
-              "options": ["Glucose", "Fructose", "Starch", "Amino acid"],
+              "options": [
+                "Glucose",
+                "Fructose",
+                "Starch",
+                "Amino acid"
+              ],
               "correctAnswer": 3
             },
             {
               "id": "bio-ch2-mcq2",
               "question": "The basic unit of proteins is:",
-              "options": ["Nucleotide", "Amino acid", "Fatty acid", "Monosaccharide"],
+              "options": [
+                "Nucleotide",
+                "Amino acid",
+                "Fatty acid",
+                "Monosaccharide"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch2-mcq3",
               "question": "DNA contains which sugar?",
-              "options": ["Ribose", "Deoxyribose", "Glucose", "Fructose"],
+              "options": [
+                "Ribose",
+                "Deoxyribose",
+                "Glucose",
+                "Fructose"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch2-mcq4",
               "question": "Which nitrogenous base is NOT found in RNA?",
-              "options": ["Adenine", "Guanine", "Thymine", "Uracil"],
+              "options": [
+                "Adenine",
+                "Guanine",
+                "Thymine",
+                "Uracil"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "bio-ch2-mcq5",
               "question": "Saturated fatty acids contain:",
-              "options": ["Double bonds", "Triple bonds", "Only single bonds", "No bonds"],
+              "options": [
+                "Double bonds",
+                "Triple bonds",
+                "Only single bonds",
+                "No bonds"
+              ],
               "correctAnswer": 2
             }
           ]
@@ -288,31 +347,56 @@
             {
               "id": "bio-ch3-mcq1",
               "question": "Enzymes are made of:",
-              "options": ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+              "options": [
+                "Carbohydrates",
+                "Lipids",
+                "Proteins",
+                "Nucleic acids"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "bio-ch3-mcq2",
               "question": "The part of enzyme where substrate binds is called:",
-              "options": ["Allosteric site", "Active site", "Binding site", "Catalytic site"],
+              "options": [
+                "Allosteric site",
+                "Active site",
+                "Binding site",
+                "Catalytic site"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch3-mcq3",
               "question": "Most human enzymes work best at:",
-              "options": ["25°C", "37°C", "50°C", "0°C"],
+              "options": [
+                "25°C",
+                "37°C",
+                "50°C",
+                "0°C"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch3-mcq4",
               "question": "In competitive inhibition, the inhibitor:",
-              "options": ["Binds to allosteric site", "Binds to active site", "Denatures enzyme", "Increases enzyme activity"],
+              "options": [
+                "Binds to allosteric site",
+                "Binds to active site",
+                "Denatures enzyme",
+                "Increases enzyme activity"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch3-mcq5",
               "question": "The substance on which enzyme acts is called:",
-              "options": ["Product", "Substrate", "Catalyst", "Inhibitor"],
+              "options": [
+                "Product",
+                "Substrate",
+                "Catalyst",
+                "Inhibitor"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -389,31 +473,56 @@
             {
               "id": "bio-ch4-mcq1",
               "question": "The cell was discovered by:",
-              "options": ["Schleiden", "Schwann", "Robert Hooke", "Virchow"],
+              "options": [
+                "Schleiden",
+                "Schwann",
+                "Robert Hooke",
+                "Virchow"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "bio-ch4-mcq2",
               "question": "Prokaryotic cells lack:",
-              "options": ["Cell membrane", "Nucleus", "Ribosomes", "Cytoplasm"],
+              "options": [
+                "Cell membrane",
+                "Nucleus",
+                "Ribosomes",
+                "Cytoplasm"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch4-mcq3",
               "question": "The powerhouse of the cell is:",
-              "options": ["Nucleus", "Chloroplast", "Mitochondria", "Ribosome"],
+              "options": [
+                "Nucleus",
+                "Chloroplast",
+                "Mitochondria",
+                "Ribosome"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "bio-ch4-mcq4",
               "question": "Protein synthesis occurs in:",
-              "options": ["Nucleus", "Ribosomes", "Golgi apparatus", "Mitochondria"],
+              "options": [
+                "Nucleus",
+                "Ribosomes",
+                "Golgi apparatus",
+                "Mitochondria"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch4-mcq5",
               "question": "The fluid mosaic model describes:",
-              "options": ["Cell wall", "Cell membrane", "Nucleus", "Cytoplasm"],
+              "options": [
+                "Cell wall",
+                "Cell membrane",
+                "Nucleus",
+                "Cytoplasm"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -490,31 +599,56 @@
             {
               "id": "bio-ch5-mcq1",
               "question": "The five-kingdom system was proposed by:",
-              "options": ["Linnaeus", "Whittaker", "Darwin", "Pasteur"],
+              "options": [
+                "Linnaeus",
+                "Whittaker",
+                "Darwin",
+                "Pasteur"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch5-mcq2",
               "question": "Viruses are:",
-              "options": ["Cellular organisms", "Acellular organisms", "Bacteria", "Fungi"],
+              "options": [
+                "Cellular organisms",
+                "Acellular organisms",
+                "Bacteria",
+                "Fungi"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch5-mcq3",
               "question": "Bacteria belong to kingdom:",
-              "options": ["Protista", "Monera", "Fungi", "Plantae"],
+              "options": [
+                "Protista",
+                "Monera",
+                "Fungi",
+                "Plantae"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch5-mcq4",
               "question": "Bacteria with spherical shape are called:",
-              "options": ["Bacillus", "Coccus", "Spirillum", "Vibrio"],
+              "options": [
+                "Bacillus",
+                "Coccus",
+                "Spirillum",
+                "Vibrio"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "bio-ch5-mcq5",
               "question": "Prions are composed of:",
-              "options": ["DNA only", "RNA only", "Protein only", "Lipids only"],
+              "options": [
+                "DNA only",
+                "RNA only",
+                "Protein only",
+                "Lipids only"
+              ],
               "correctAnswer": 2
             }
           ]
@@ -524,7 +658,9 @@
     {
       "slug": "chemistry",
       "name": "Chemistry",
-      "classLevels": ["11th"],
+      "classLevels": [
+        "11th"
+      ],
       "chapters": [
         {
           "slug": "chemistry-chapter-01",
@@ -598,31 +734,56 @@
             {
               "id": "chem-ch1-mcq1",
               "question": "Avogadro's number is:",
-              "options": ["6.022 × 10²³", "6.022 × 10²²", "6.022 × 10²⁴", "6.022 × 10²¹"],
+              "options": [
+                "6.022 × 10²³",
+                "6.022 × 10²²",
+                "6.022 × 10²⁴",
+                "6.022 × 10²¹"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "chem-ch1-mcq2",
               "question": "The molar volume of gas at STP is:",
-              "options": ["22.4 L", "2.24 L", "224 L", "0.224 L"],
+              "options": [
+                "22.4 L",
+                "2.24 L",
+                "224 L",
+                "0.224 L"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "chem-ch1-mcq3",
               "question": "One mole of H₂O contains:",
-              "options": ["6.022 × 10²³ molecules", "12.044 × 10²³ molecules", "18 molecules", "10 molecules"],
+              "options": [
+                "6.022 × 10²³ molecules",
+                "12.044 × 10²³ molecules",
+                "18 molecules",
+                "10 molecules"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "chem-ch1-mcq4",
               "question": "The empirical formula of C₆H₁₂O₆ is:",
-              "options": ["C₆H₁₂O₆", "CH₂O", "C₂H₄O₂", "C₃H₆O₃"],
+              "options": [
+                "C₆H₁₂O₆",
+                "CH₂O",
+                "C₂H₄O₂",
+                "C₃H₆O₃"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch1-mcq5",
               "question": "The limiting reactant is the one which:",
-              "options": ["Is in excess", "Is completely consumed", "Produces maximum product", "Has highest mass"],
+              "options": [
+                "Is in excess",
+                "Is completely consumed",
+                "Produces maximum product",
+                "Has highest mass"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -699,31 +860,56 @@
             {
               "id": "chem-ch2-mcq1",
               "question": "The nucleus was discovered by:",
-              "options": ["Rutherford", "Bohr", "Thomson", "Chadwick"],
+              "options": [
+                "Rutherford",
+                "Bohr",
+                "Thomson",
+                "Chadwick"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "chem-ch2-mcq2",
               "question": "The maximum number of electrons in n=3 shell is:",
-              "options": ["8", "18", "32", "2"],
+              "options": [
+                "8",
+                "18",
+                "32",
+                "2"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch2-mcq3",
               "question": "The shape of p-orbital is:",
-              "options": ["Spherical", "Dumbbell", "Double dumbbell", "Complex"],
+              "options": [
+                "Spherical",
+                "Dumbbell",
+                "Double dumbbell",
+                "Complex"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch2-mcq4",
               "question": "The azimuthal quantum number for d-orbital is:",
-              "options": ["0", "1", "2", "3"],
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "chem-ch2-mcq5",
               "question": "According to Aufbau principle, orbitals are filled in order of:",
-              "options": ["Increasing energy", "Decreasing energy", "Same energy", "Random"],
+              "options": [
+                "Increasing energy",
+                "Decreasing energy",
+                "Same energy",
+                "Random"
+              ],
               "correctAnswer": 0
             }
           ]
@@ -800,31 +986,56 @@
             {
               "id": "chem-ch3-mcq1",
               "question": "Boyle's law states that at constant temperature:",
-              "options": ["V ∝ T", "P ∝ 1/V", "P ∝ T", "V ∝ n"],
+              "options": [
+                "V ∝ T",
+                "P ∝ 1/V",
+                "P ∝ T",
+                "V ∝ n"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch3-mcq2",
               "question": "Charles's law states that at constant pressure:",
-              "options": ["V ∝ T", "P ∝ V", "V ∝ 1/T", "P ∝ 1/V"],
+              "options": [
+                "V ∝ T",
+                "P ∝ V",
+                "V ∝ 1/T",
+                "P ∝ 1/V"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "chem-ch3-mcq3",
               "question": "The value of R in SI units is:",
-              "options": ["0.0821 L atm K⁻¹ mol⁻¹", "8.314 J K⁻¹ mol⁻¹", "8.314 cal K⁻¹ mol⁻¹", "82.1 L atm K⁻¹ mol⁻¹"],
+              "options": [
+                "0.0821 L atm K⁻¹ mol⁻¹",
+                "8.314 J K⁻¹ mol⁻¹",
+                "8.314 cal K⁻¹ mol⁻¹",
+                "82.1 L atm K⁻¹ mol⁻¹"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch3-mcq4",
               "question": "Standard temperature is:",
-              "options": ["0°C or 273 K", "25°C or 298 K", "100°C or 373 K", "-273°C or 0 K"],
+              "options": [
+                "0°C or 273 K",
+                "25°C or 298 K",
+                "100°C or 373 K",
+                "-273°C or 0 K"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "chem-ch3-mcq5",
               "question": "The rate of diffusion of gas is inversely proportional to:",
-              "options": ["Temperature", "Pressure", "Square root of molar mass", "Volume"],
+              "options": [
+                "Temperature",
+                "Pressure",
+                "Square root of molar mass",
+                "Volume"
+              ],
               "correctAnswer": 2
             }
           ]
@@ -901,31 +1112,56 @@
             {
               "id": "chem-ch4-mcq1",
               "question": "The strongest intermolecular force is:",
-              "options": ["London forces", "Dipole-dipole", "Hydrogen bond", "Ionic bond"],
+              "options": [
+                "London forces",
+                "Dipole-dipole",
+                "Hydrogen bond",
+                "Ionic bond"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "chem-ch4-mcq2",
               "question": "Evaporation is a:",
-              "options": ["Exothermic process", "Endothermic process", "Isothermal process", "Adiabatic process"],
+              "options": [
+                "Exothermic process",
+                "Endothermic process",
+                "Isothermal process",
+                "Adiabatic process"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch4-mcq3",
               "question": "Diamond is an example of:",
-              "options": ["Ionic solid", "Molecular solid", "Covalent network solid", "Metallic solid"],
+              "options": [
+                "Ionic solid",
+                "Molecular solid",
+                "Covalent network solid",
+                "Metallic solid"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "chem-ch4-mcq4",
               "question": "Glass is an example of:",
-              "options": ["Crystalline solid", "Amorphous solid", "Ionic solid", "Metallic solid"],
+              "options": [
+                "Crystalline solid",
+                "Amorphous solid",
+                "Ionic solid",
+                "Metallic solid"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "chem-ch4-mcq5",
               "question": "The temperature at which vapor pressure equals atmospheric pressure is called:",
-              "options": ["Melting point", "Freezing point", "Boiling point", "Sublimation point"],
+              "options": [
+                "Melting point",
+                "Freezing point",
+                "Boiling point",
+                "Sublimation point"
+              ],
               "correctAnswer": 2
             }
           ]
@@ -935,7 +1171,9 @@
     {
       "slug": "physics",
       "name": "Physics",
-      "classLevels": ["11th"],
+      "classLevels": [
+        "11th"
+      ],
       "chapters": [
         {
           "slug": "physics-chapter-01",
@@ -1009,31 +1247,56 @@
             {
               "id": "phy-ch1-mcq1",
               "question": "The SI unit of length is:",
-              "options": ["Centimeter", "Meter", "Kilometer", "Millimeter"],
+              "options": [
+                "Centimeter",
+                "Meter",
+                "Kilometer",
+                "Millimeter"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch1-mcq2",
               "question": "The SI unit of time is:",
-              "options": ["Minute", "Hour", "Second", "Day"],
+              "options": [
+                "Minute",
+                "Hour",
+                "Second",
+                "Day"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "phy-ch1-mcq3",
               "question": "The number of significant figures in 0.00450 is:",
-              "options": ["2", "3", "4", "5"],
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch1-mcq4",
               "question": "The dimensions of force are:",
-              "options": ["[MLT⁻²]", "[ML²T⁻²]", "[MLT⁻¹]", "[M²LT⁻²]"],
+              "options": [
+                "[MLT⁻²]",
+                "[ML²T⁻²]",
+                "[MLT⁻¹]",
+                "[M²LT⁻²]"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "phy-ch1-mcq5",
               "question": "1 nanometer is equal to:",
-              "options": ["10⁻⁶ m", "10⁻⁹ m", "10⁻³ m", "10⁻¹² m"],
+              "options": [
+                "10⁻⁶ m",
+                "10⁻⁹ m",
+                "10⁻³ m",
+                "10⁻¹² m"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -1110,31 +1373,56 @@
             {
               "id": "phy-ch2-mcq1",
               "question": "Which of the following is a vector quantity?",
-              "options": ["Mass", "Speed", "Velocity", "Temperature"],
+              "options": [
+                "Mass",
+                "Speed",
+                "Velocity",
+                "Temperature"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "phy-ch2-mcq2",
               "question": "The magnitude of unit vector is:",
-              "options": ["0", "1", "Undefined", "Variable"],
+              "options": [
+                "0",
+                "1",
+                "Undefined",
+                "Variable"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch2-mcq3",
               "question": "The cross product of two parallel vectors is:",
-              "options": ["Maximum", "Zero", "Unity", "Negative"],
+              "options": [
+                "Maximum",
+                "Zero",
+                "Unity",
+                "Negative"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch2-mcq4",
               "question": "Torque is defined as:",
-              "options": ["r × F", "r · F", "r + F", "r - F"],
+              "options": [
+                "r × F",
+                "r · F",
+                "r + F",
+                "r - F"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "phy-ch2-mcq5",
               "question": "For a body to be in equilibrium, the net force must be:",
-              "options": ["Maximum", "Minimum", "Zero", "Variable"],
+              "options": [
+                "Maximum",
+                "Minimum",
+                "Zero",
+                "Variable"
+              ],
               "correctAnswer": 2
             }
           ]
@@ -1211,31 +1499,56 @@
             {
               "id": "phy-ch3-mcq1",
               "question": "The slope of velocity-time graph gives:",
-              "options": ["Displacement", "Distance", "Acceleration", "Velocity"],
+              "options": [
+                "Displacement",
+                "Distance",
+                "Acceleration",
+                "Velocity"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "phy-ch3-mcq2",
               "question": "Newton's first law is also called:",
-              "options": ["Law of acceleration", "Law of inertia", "Law of action-reaction", "Law of gravitation"],
+              "options": [
+                "Law of acceleration",
+                "Law of inertia",
+                "Law of action-reaction",
+                "Law of gravitation"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch3-mcq3",
               "question": "The SI unit of momentum is:",
-              "options": ["kg m s", "kg m s⁻¹", "kg m s⁻²", "kg m² s⁻¹"],
+              "options": [
+                "kg m s",
+                "kg m s⁻¹",
+                "kg m s⁻²",
+                "kg m² s⁻¹"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch3-mcq4",
               "question": "Impulse is equal to:",
-              "options": ["Force × time", "Force × distance", "Mass × velocity", "Mass × acceleration"],
+              "options": [
+                "Force × time",
+                "Force × distance",
+                "Mass × velocity",
+                "Mass × acceleration"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "phy-ch3-mcq5",
               "question": "Action and reaction forces act on:",
-              "options": ["Same body", "Different bodies", "Same point", "None of these"],
+              "options": [
+                "Same body",
+                "Different bodies",
+                "Same point",
+                "None of these"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -1312,31 +1625,56 @@
             {
               "id": "phy-ch4-mcq1",
               "question": "Work is a:",
-              "options": ["Scalar quantity", "Vector quantity", "Dimensionless quantity", "None of these"],
+              "options": [
+                "Scalar quantity",
+                "Vector quantity",
+                "Dimensionless quantity",
+                "None of these"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "phy-ch4-mcq2",
               "question": "The SI unit of work is:",
-              "options": ["Watt", "Joule", "Newton", "Kilowatt"],
+              "options": [
+                "Watt",
+                "Joule",
+                "Newton",
+                "Kilowatt"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch4-mcq3",
               "question": "Power is defined as:",
-              "options": ["Work × time", "Work / time", "Work × distance", "Force × velocity"],
+              "options": [
+                "Work × time",
+                "Work / time",
+                "Work × distance",
+                "Force × velocity"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch4-mcq4",
               "question": "Kinetic energy of a body of mass m moving with velocity v is:",
-              "options": ["½mv", "½mv²", "mv", "mv²"],
+              "options": [
+                "½mv",
+                "½mv²",
+                "mv",
+                "mv²"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "phy-ch4-mcq5",
               "question": "1 kilowatt-hour is equal to:",
-              "options": ["3.6 × 10⁶ J", "3.6 × 10³ J", "3.6 × 10⁹ J", "3.6 × 10⁵ J"],
+              "options": [
+                "3.6 × 10⁶ J",
+                "3.6 × 10³ J",
+                "3.6 × 10⁹ J",
+                "3.6 × 10⁵ J"
+              ],
               "correctAnswer": 0
             }
           ]
@@ -1346,7 +1684,9 @@
     {
       "slug": "mathematics",
       "name": "Mathematics",
-      "classLevels": ["11th"],
+      "classLevels": [
+        "11th"
+      ],
       "chapters": [
         {
           "slug": "mathematics-chapter-01",
@@ -1420,31 +1760,56 @@
             {
               "id": "math-ch1-mcq1",
               "question": "The value of i⁴ is:",
-              "options": ["1", "-1", "i", "-i"],
+              "options": [
+                "1",
+                "-1",
+                "i",
+                "-i"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch1-mcq2",
               "question": "The conjugate of 3 + 4i is:",
-              "options": ["3 + 4i", "3 - 4i", "-3 + 4i", "-3 - 4i"],
+              "options": [
+                "3 + 4i",
+                "3 - 4i",
+                "-3 + 4i",
+                "-3 - 4i"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch1-mcq3",
               "question": "The modulus of 3 + 4i is:",
-              "options": ["5", "7", "25", "1"],
+              "options": [
+                "5",
+                "7",
+                "25",
+                "1"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch1-mcq4",
               "question": "Which of the following is a rational number?",
-              "options": ["√2", "√3", "0.333...", "π"],
+              "options": [
+                "√2",
+                "√3",
+                "0.333...",
+                "π"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "math-ch1-mcq5",
               "question": "If z = a + bi, then z + z̄ equals:",
-              "options": ["2a", "2b", "2bi", "0"],
+              "options": [
+                "2a",
+                "2b",
+                "2bi",
+                "0"
+              ],
               "correctAnswer": 0
             }
           ]
@@ -1521,31 +1886,56 @@
             {
               "id": "math-ch2-mcq1",
               "question": "The set with no elements is called:",
-              "options": ["Universal set", "Empty set", "Subset", "Power set"],
+              "options": [
+                "Universal set",
+                "Empty set",
+                "Subset",
+                "Power set"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch2-mcq2",
               "question": "If A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B is:",
-              "options": ["{1, 2, 3, 4}", "{2, 3}", "{1, 4}", "{}"],
+              "options": [
+                "{1, 2, 3, 4}",
+                "{2, 3}",
+                "{1, 4}",
+                "{}"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch2-mcq3",
               "question": "A function that is both one-one and onto is called:",
-              "options": ["Injective", "Surjective", "Bijective", "Inverse"],
+              "options": [
+                "Injective",
+                "Surjective",
+                "Bijective",
+                "Inverse"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "math-ch2-mcq4",
               "question": "The identity element for addition is:",
-              "options": ["0", "1", "-1", "Infinity"],
+              "options": [
+                "0",
+                "1",
+                "-1",
+                "Infinity"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch2-mcq5",
               "question": "De Morgan's law states that (A ∪ B)' equals:",
-              "options": ["A' ∪ B'", "A' ∩ B'", "A ∩ B", "A ∪ B"],
+              "options": [
+                "A' ∪ B'",
+                "A' ∩ B'",
+                "A ∩ B",
+                "A ∪ B"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -1622,31 +2012,56 @@
             {
               "id": "math-ch3-mcq1",
               "question": "A matrix with equal number of rows and columns is called:",
-              "options": ["Row matrix", "Column matrix", "Square matrix", "Diagonal matrix"],
+              "options": [
+                "Row matrix",
+                "Column matrix",
+                "Square matrix",
+                "Diagonal matrix"
+              ],
               "correctAnswer": 2
             },
             {
               "id": "math-ch3-mcq2",
               "question": "The determinant of [[1, 2], [3, 4]] is:",
-              "options": ["-2", "2", "10", "-10"],
+              "options": [
+                "-2",
+                "2",
+                "10",
+                "-10"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch3-mcq3",
               "question": "If A is a matrix, then (A')' equals:",
-              "options": ["A", "A'", "2A", "A²"],
+              "options": [
+                "A",
+                "A'",
+                "2A",
+                "A²"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch3-mcq4",
               "question": "A square matrix with all non-diagonal elements zero is called:",
-              "options": ["Identity matrix", "Diagonal matrix", "Symmetric matrix", "Skew-symmetric matrix"],
+              "options": [
+                "Identity matrix",
+                "Diagonal matrix",
+                "Symmetric matrix",
+                "Skew-symmetric matrix"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch3-mcq5",
               "question": "The inverse of a matrix A exists if:",
-              "options": ["det(A) = 0", "det(A) ≠ 0", "A is square", "A is diagonal"],
+              "options": [
+                "det(A) = 0",
+                "det(A) ≠ 0",
+                "A is square",
+                "A is diagonal"
+              ],
               "correctAnswer": 1
             }
           ]
@@ -1723,31 +2138,56 @@
             {
               "id": "math-ch4-mcq1",
               "question": "The quadratic formula is:",
-              "options": ["x = (-b ± √(b² - 4ac)) / 2a", "x = (-b ± √(b² + 4ac)) / 2a", "x = (b ± √(b² - 4ac)) / 2a", "x = (-b ± √(b² - 4ac)) / a"],
+              "options": [
+                "x = (-b ± √(b² - 4ac)) / 2a",
+                "x = (-b ± √(b² + 4ac)) / 2a",
+                "x = (b ± √(b² - 4ac)) / 2a",
+                "x = (-b ± √(b² - 4ac)) / a"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch4-mcq2",
               "question": "For x² - 4x + 4 = 0, the discriminant is:",
-              "options": ["0", "4", "8", "16"],
+              "options": [
+                "0",
+                "4",
+                "8",
+                "16"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch4-mcq3",
               "question": "If discriminant > 0, roots are:",
-              "options": ["Real and equal", "Real and distinct", "Imaginary", "Zero"],
+              "options": [
+                "Real and equal",
+                "Real and distinct",
+                "Imaginary",
+                "Zero"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch4-mcq4",
               "question": "Sum of roots of 2x² - 5x + 3 = 0 is:",
-              "options": ["5/2", "-5/2", "3/2", "-3/2"],
+              "options": [
+                "5/2",
+                "-5/2",
+                "3/2",
+                "-3/2"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch4-mcq5",
               "question": "Product of roots of x² + 4x - 5 = 0 is:",
-              "options": ["4", "-4", "5", "-5"],
+              "options": [
+                "4",
+                "-4",
+                "5",
+                "-5"
+              ],
               "correctAnswer": 3
             }
           ]
@@ -1819,31 +2259,56 @@
             {
               "id": "math-ch5-mcq1",
               "question": "The partial fraction form of 1/(x(x-1)) is:",
-              "options": ["A/x + B/(x-1)", "A/x + Bx/(x-1)", "A/x² + B/(x-1)", "A/x + B/(x-1)²"],
+              "options": [
+                "A/x + B/(x-1)",
+                "A/x + Bx/(x-1)",
+                "A/x² + B/(x-1)",
+                "A/x + B/(x-1)²"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch5-mcq2",
               "question": "The partial fraction form of 1/(x-1)² is:",
-              "options": ["A/(x-1)", "A/(x-1) + B/(x-1)²", "A/(x-1)²", "A/(x-1) + B"],
+              "options": [
+                "A/(x-1)",
+                "A/(x-1) + B/(x-1)²",
+                "A/(x-1)²",
+                "A/(x-1) + B"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch5-mcq3",
               "question": "1/(x²+1) in partial fractions has the form:",
-              "options": ["A/(x+1) + B/(x-1)", "(Ax+B)/(x²+1)", "A/(x²+1)", "A/x + Bx/(x²+1)"],
+              "options": [
+                "A/(x+1) + B/(x-1)",
+                "(Ax+B)/(x²+1)",
+                "A/(x²+1)",
+                "A/x + Bx/(x²+1)"
+              ],
               "correctAnswer": 1
             },
             {
               "id": "math-ch5-mcq4",
               "question": "If degree of numerator < degree of denominator, the fraction is:",
-              "options": ["Proper", "Improper", "Mixed", "Complex"],
+              "options": [
+                "Proper",
+                "Improper",
+                "Mixed",
+                "Complex"
+              ],
               "correctAnswer": 0
             },
             {
               "id": "math-ch5-mcq5",
               "question": "The value of A in 1/(x(x+1)) = A/x + B/(x+1) when x=0 is:",
-              "options": ["0", "1", "-1", "2"],
+              "options": [
+                "0",
+                "1",
+                "-1",
+                "2"
+              ],
               "correctAnswer": 1
             }
           ]

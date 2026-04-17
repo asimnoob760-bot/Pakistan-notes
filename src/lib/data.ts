@@ -28,6 +28,8 @@ export type LongQuestion = {
   id: string;
   question: string;
   marks: number;
+  imageUrl?: string; // Legacy support
+  imageUrls?: string[]; // Multi-image support
 };
 
 export type SectionContent = {
@@ -89,6 +91,11 @@ export function getMCQs(subjectSlug: string, chapterSlug: string): MCQ[] {
 export function getLongQuestions(subjectSlug: string, chapterSlug: string): LongQuestion[] {
   const chapter = getChapter(subjectSlug, chapterSlug);
   return chapter?.longQuestions || [];
+}
+
+export function getLongQuestion(subjectSlug: string, chapterSlug: string, questionId: string): LongQuestion | undefined {
+  const longQuestions = getLongQuestions(subjectSlug, chapterSlug);
+  return longQuestions.find((lq) => lq.id === questionId);
 }
 
 export function getShortQuestions(subjectSlug: string, chapterSlug: string): string[] {

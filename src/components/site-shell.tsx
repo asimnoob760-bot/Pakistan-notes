@@ -3,6 +3,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { FeedbackButton } from "./feedback-button";
+import { ThemeToggle } from "./theme-toggle";
 
 type SiteShellProps = {
   children: ReactNode;
@@ -10,8 +11,8 @@ type SiteShellProps = {
 
 export function SiteShell({ children }: SiteShellProps) {
   return (
-    <div className="min-h-screen bg-[#FAF7F2]">
-      <header className="sticky top-0 z-20 border-b border-[#e8e0d5] bg-[#FFFBF7]/95 backdrop-blur-sm">
+    <div className="min-h-screen bg-[#FAF7F2] transition-colors duration-300">
+      <header className="sticky top-0 z-20 border-b border-[#e8e0d5] bg-[#FFFBF7]/95 backdrop-blur-sm transition-colors duration-300">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 sm:px-8">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 transition-opacity duration-200 hover:opacity-80">
@@ -51,6 +52,10 @@ export function SiteShell({ children }: SiteShellProps) {
             >
               About
             </Link>
+            {/* Theme Toggle */}
+            <div className="ml-2 pl-2 border-l border-[#e8e0d5]">
+              <ThemeToggle />
+            </div>
           </nav>
         </div>
       </header>
