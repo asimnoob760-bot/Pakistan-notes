@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   title: "Pakistan Notes",
   description:
     "Free exam-focused notes, tricks, and paper presentation resources for Pakistan board students.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 };
 
 export default function RootLayout({

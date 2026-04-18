@@ -57,64 +57,80 @@ export async function POST(req: Request) {
       body: imgbbFormData,
     });
 
+    // Check if fetch succeeded
+    if (!imgbbResponse.ok) {
+      console.error("ImgBB HTTP error:", imgbbResponse.status, imgbbResponse.statusText);
+      return NextResponse.json(
+        { success: false, error: `ImgBB returned HTTP ${imgbbResponse.status}` },
+        { status: 500 }
+      );
+    }
+
     const imgbbData = await imgbbResponse.json();
+    console.log("ImgBB response:", JSON.stringify(imgbbData, null, 2));
 
     if (!imgbbData.success) {
       console.error("ImgBB upload failed:", imgbbData);
       return NextResponse.json(
-        { success: false, error: imgbbData.error?.message || "Failed to upload to ImgBB" },
+        { success: false, error: imgbbData.error?.message || imgbbData.error?.code || "Failed to upload to ImgBB" },
         { status: 500 }
       );
     }
 
     // Get the direct image URL from ImgBB response
-    // Prefer the direct URL over the display URL
-    const imageUrl = imgbbData.data.url;
-
-    // Update JSON data
-    const fileData = fs.readFileSync(dataFilePath, "utf-8");
-    const json = JSON.parse(fileData);
-
-    const subject = json.subjects.find((s: any) => s.slug === subjectSlug);
-    if (!subject) {
-      return NextResponse.json(
-        { success: false, error: "Subject not found" },
-        { status: 404 }
-      );
-    }
-
-    const chapter = subject.chapters.find((c: any) => c.slug === chapterSlug);
-    if (!chapter) {
-      return NextResponse.json(
-        { success: false, error: "Chapter not found" },
-        { status: 404 }
-      );
-    }
-
-    const question = chapter.longQuestions?.find((q: any) => q.id === questionId);
-    if (!question) {
-      return NextResponse.json(
-        { success: false, error: "Question not found" },
-        { status: 404 }
-      );
-    }
-
-    // Add imageUrl to question (support both legacy single image and new multi-image array)
-    if (!question.imageUrls) {
-      question.imageUrls = [];
-    }
-    question.imageUrls.push(imageUrl);
+    // Try multiple possible URL fields
+    const imageUrl = imgbbData.data?.url || imgbbData.data?.display_url || imgbbData.data?.image?.url;
     
-    // Also update legacy field for backward compatibility
-    question.imageUrl = imageUrl;
+    if (!imageUrl) {
+      console.error("No URL found in ImgBB response:", imgbbData);
+      return NextResponse.json(
+        { success: false, error: "Invalid response from ImgBB - no image URL found" },
+        { status: 500 }
+      );
+    }
 
-    // Write back to JSON file
-    fs.writeFileSync(dataFilePath, JSON.stringify(json, null, 2));
+    // Update JSON data - try to save, but return success even if local save fails
+    let saveSuccess = false;
+    let saveError = null;
+    
+    try {
+      const fileData = fs.readFileSync(dataFilePath, "utf-8");
+      const json = JSON.parse(fileData);
 
+      const subject = json.subjects.find((s: any) => s.slug === subjectSlug);
+      const chapter = subject?.chapters.find((c: any) => c.slug === chapterSlug);
+      const question = chapter?.longQuestions?.find((q: any) => q.id === questionId);
+      
+      if (question) {
+        // Add imageUrl to question (support both legacy single image and new multi-image array)
+        if (!question.imageUrls) {
+          question.imageUrls = [];
+        }
+        question.imageUrls.push(imageUrl);
+        
+        // Also update legacy field for backward compatibility
+        question.imageUrl = imageUrl;
+
+        // Write back to JSON file
+        fs.writeFileSync(dataFilePath, JSON.stringify(json, null, 2));
+        saveSuccess = true;
+      } else {
+        saveError = "Question not found in local data, but image was uploaded to ImgBB";
+      }
+    } catch (err) {
+      console.error("Local save error:", err);
+      saveError = "Failed to save to local database, but image was uploaded to ImgBB";
+    }
+
+    // Always return success if ImgBB upload worked - client can use the URL
     return NextResponse.json({
       success: true,
       imageUrl,
-      message: "Image uploaded and saved successfully",
+      message: saveSuccess 
+        ? "Image uploaded and saved successfully" 
+        : (saveError || "Image uploaded to ImgBB but not saved locally"),
+      saved: saveSuccess,
+      warning: saveError,
     });
   } catch (err) {
     console.error("Upload error:", err);
