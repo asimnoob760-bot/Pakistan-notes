@@ -47,7 +47,12 @@ export async function POST(req: Request) {
         break;
 
       case "short-question":
-        chapter.shortQuestions.push(content.question);
+        chapter.shortQuestions.push({
+          id: `${subjectSlug}-${chapterSlug}-sq${chapter.shortQuestions.length + 1}`,
+          question: content.question,
+          answer: content.answer || "",
+          imageUrls: content.imageUrls || []
+        });
         break;
 
       case "mcq":

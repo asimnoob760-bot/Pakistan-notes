@@ -37,7 +37,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
       {/* Chapter Stats */}
       <section className="mb-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           <div className="bg-[#FFFBF7] border border-[#e8e0d5] rounded-xl p-4 text-center">
             <p className="text-2xl font-serif text-[#8B9A6B]">{chapter.longQuestions?.length || 0}</p>
             <p className="text-xs text-[#6b6b6b]">Long Questions</p>
@@ -45,14 +45,6 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <div className="bg-[#FFFBF7] border border-[#e8e0d5] rounded-xl p-4 text-center">
             <p className="text-2xl font-serif text-[#B8A5A0]">{chapter.shortQuestions?.length || 0}</p>
             <p className="text-xs text-[#6b6b6b]">Short Questions</p>
-          </div>
-          <div className="bg-[#FFFBF7] border border-[#e8e0d5] rounded-xl p-4 text-center">
-            <p className="text-2xl font-serif text-[#8B9A6B]">{chapter.mcqs?.length || 0}</p>
-            <p className="text-xs text-[#6b6b6b]">MCQs</p>
-          </div>
-          <div className="bg-[#FFFBF7] border border-[#e8e0d5] rounded-xl p-4 text-center">
-            <p className="text-2xl font-serif text-[#6b6b6b]">∞</p>
-            <p className="text-xs text-[#6b6b6b]">Resources</p>
           </div>
         </div>
       </section>

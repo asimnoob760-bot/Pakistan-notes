@@ -52,14 +52,6 @@ export default async function QuestionDetailPage({ params }: QuestionPageProps) 
 
       {/* Question Header */}
       <section className="mb-8">
-        <div className="flex items-center gap-3 mb-4">
-          <span className="px-3 py-1 bg-[#B8A5A0]/10 text-[#B8A5A0] rounded-full text-sm font-medium">
-            {question.marks} marks
-          </span>
-          <span className="px-3 py-1 bg-[#8B9A6B]/10 text-[#8B9A6B] rounded-full text-sm font-medium">
-            Long Question
-          </span>
-        </div>
         <h1 className="text-2xl md:text-3xl font-serif text-[#2c2c2c] leading-relaxed">
           {question.question}
         </h1>

@@ -8,30 +8,20 @@ const subjects = [
   {
     slug: "biology",
     name: "Biology",
-    description: "Cell biology, biological molecules, enzymes, bioenergetics",
-    chapters: 5,
+    description: "12 chapters covering biodiversity, cells, molecular biology, human physiology",
     color: "#8B9A6B"
   },
   {
     slug: "chemistry",
     name: "Chemistry",
     description: "Stoichiometry, atomic structure, chemical bonding, states of matter",
-    chapters: 4,
     color: "#B8A5A0"
   },
   {
     slug: "physics",
     name: "Physics",
     description: "Measurements, vectors, forces, circular motion, work & energy",
-    chapters: 5,
     color: "#9CAF88"
-  },
-  {
-    slug: "mathematics",
-    name: "Mathematics",
-    description: "Number systems, sets, matrices, quadratic equations, partial fractions",
-    chapters: 5,
-    color: "#A89F91"
   }
 ];
 
@@ -83,7 +73,7 @@ export default function Class11Page() {
             onMouseEnter={(e) => e.currentTarget.style.borderColor = subject.color}
             onMouseLeave={(e) => e.currentTarget.style.borderColor = '#e8e0d5'}
           >
-            <div className="flex items-start justify-between mb-4">
+            <div className="mb-4">
               <div 
                 className="h-12 w-12 rounded-xl flex items-center justify-center"
                 style={{ backgroundColor: `${subject.color}15` }}
@@ -92,12 +82,6 @@ export default function Class11Page() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <span 
-                className="px-3 py-1 rounded-full text-sm font-medium"
-                style={{ backgroundColor: `${subject.color}15`, color: subject.color }}
-              >
-                {subject.chapters} Chapters
-              </span>
             </div>
             
             <h3 

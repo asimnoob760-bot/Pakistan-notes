@@ -17,12 +17,13 @@ export const metadata: Metadata = {
   title: "Pakistan Notes",
   description:
     "Free exam-focused notes, tricks, and paper presentation resources for Pakistan board students.",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-    userScalable: true,
-  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 };
 
 export default function RootLayout({
@@ -37,7 +38,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col transition-colors duration-300">
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

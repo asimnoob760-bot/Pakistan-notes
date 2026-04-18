@@ -32,6 +32,13 @@ export type LongQuestion = {
   imageUrls?: string[]; // Multi-image support
 };
 
+export type ShortQuestion = {
+  id: string;
+  question: string;
+  answer: string;
+  imageUrls?: string[];
+};
+
 export type SectionContent = {
   id: SectionId;
   title: string;
@@ -46,7 +53,8 @@ export type ChapterContent = {
   description: string;
   sections: SectionContent[];
   longQuestions?: LongQuestion[];
-  shortQuestions?: string[];
+  shortQuestions?: ShortQuestion[];
+  shortQuestionsCombinedImage?: string;
   mcqs?: MCQ[];
 };
 
@@ -98,9 +106,14 @@ export function getLongQuestion(subjectSlug: string, chapterSlug: string, questi
   return longQuestions.find((lq) => lq.id === questionId);
 }
 
-export function getShortQuestions(subjectSlug: string, chapterSlug: string): string[] {
+export function getShortQuestions(subjectSlug: string, chapterSlug: string): ShortQuestion[] {
   const chapter = getChapter(subjectSlug, chapterSlug);
   return chapter?.shortQuestions || [];
+}
+
+export function getShortQuestion(subjectSlug: string, chapterSlug: string, questionId: string): ShortQuestion | undefined {
+  const shortQuestions = getShortQuestions(subjectSlug, chapterSlug);
+  return shortQuestions.find((sq) => sq.id === questionId);
 }
 
 export function buildSearchDocuments(): SearchDocument[] {
@@ -143,7 +156,7 @@ export function buildSearchDocuments(): SearchDocument[] {
       if (chapter.shortQuestions) {
         for (const sq of chapter.shortQuestions) {
           docs.push({
-            title: sq,
+            title: sq.question,
             snippet: `Short question - ${chapter.name}`,
             href,
             subject: subject.name,

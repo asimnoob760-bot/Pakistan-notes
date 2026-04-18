@@ -57,7 +57,7 @@ export default function Home() {
               Class 11 Notes
             </h3>
             <p className="text-sm text-[#6b6b6b]">
-              Biology, Chemistry, Physics & more
+              Biology, Chemistry & Physics
             </p>
           </Link>
 
